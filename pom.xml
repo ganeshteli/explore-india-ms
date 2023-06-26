@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.ec</groupId>
-	<artifactId>explorein</artifactId>
+	<artifactId>explore-india-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>explorein</name>
+	<name>explore-india-app</name>
 	<description>Explore India Microservice</description>
 
 	<properties>
