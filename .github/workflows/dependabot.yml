@@ -1,3 +1,4 @@
+version: 2
 updates:
   - package-ecosystem: "maven"
     directory: "/"
@@ -7,3 +8,14 @@ updates:
       - dependency-name: org.apache.maven:*
         versions:
           - "> 3.0.0"
+          
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: sunday
+    groups:
+      actions-depencdencies:
+        patterns:
+          - "*"
+          
