@@ -46,6 +46,7 @@
 			<artifactId>spring-data-rest-hal-explorer</artifactId>
 		</dependency>
 	</dependencies>
+	
 	<build>
 	  <plugins>
 	    <plugin>
