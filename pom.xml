@@ -46,9 +46,9 @@
 			<artifactId>spring-data-rest-hal-explorer</artifactId>
 		</dependency>
 	</dependencies>
-<reporting>
-    <plugins>
-        <plugin>
+       <reporting>
+         <plugins>
+         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>3.0.0</version>
@@ -63,8 +63,8 @@
              </execution>
            </executions>
         </plugin>
-    </plugins>
-</reporting>
+        </plugins>
+     </reporting>
     
 	<build>
 		<plugins>
